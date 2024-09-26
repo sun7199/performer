@@ -19,8 +19,6 @@ from config import persformer_openlane, persformer_once, persformer_apollo
 from utils.utils import *
 from experiments.ddp import *
 from experiments.runner import *
-
-
 def main():
     parser = define_args() # args in utils.py
     args = parser.parse_args()
